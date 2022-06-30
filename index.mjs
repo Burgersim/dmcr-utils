@@ -5,6 +5,6 @@ const {getAirtableRecords} = getRecordsFromAirtable
 let testValue = 20;
 
 module.exports = {
-    getAirtableRecords,
+    "getAirtableRecords": getAirtableRecords,
     testValue
 }
