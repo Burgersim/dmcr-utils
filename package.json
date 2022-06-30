@@ -1,6 +1,6 @@
 {
   "name": "dmcr-utils",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Utility Library containing useful functions for quick development of DMCR-related Tools and Services",
   "main": "src/index.js",
   "scripts": {
