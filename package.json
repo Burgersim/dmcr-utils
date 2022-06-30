@@ -1,6 +1,6 @@
 {
   "name": "dmcr-utils",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Utility Library containing useful functions for quick development of DMCR-related Tools and Services",
   "main": "dist/dmcr-utils.cjs.js",
   "module": "dist/dmcr-utils.esm.js",
