@@ -1,4 +1,4 @@
-const airtableFunctions = require('./airtable/getRecordsFromAirtable')
+const airtableFunctions = require('./airtable/getRecordsFromAirtable.mjs')
 
 let testValue = 20;
 
