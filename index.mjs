@@ -1,4 +1,6 @@
-import {getAirtableRecords} from "./airtable/getRecordsFromAirtable";
+import getRecordsFromAirtable from './airtable/getRecordsFromAirtable'
+
+const {getAirtableRecords} = getRecordsFromAirtable
 
 let testValue = 20;
 
