@@ -2,7 +2,7 @@ import Airtable from "airtable";
 import AirtableRecord from "../classes/AirtableRecord.js";
 const axios = require('axios');
 
-function getAirtableRecords(apiKey, baseId, table, view){
+export function getAirtableRecords(apiKey, baseId, table, view) {
     const Base = new Airtable({apiKey: apiKey}).base(baseId);
 
     return new Promise(async function (resolve, reject) {
@@ -96,8 +96,4 @@ function getAirtableRecords(apiKey, baseId, table, view){
 
 
     })
-}
-
-module.exports ={
-    getAirtableRecords
 }

@@ -1,7 +1,7 @@
 const cloneDeep = require('lodash.clonedeep');
 
 //define class for Airtable Record Object
-class AirtableRecord extends Array {
+export default class AirtableRecord extends Array {
     //constructor
     constructor(metadataSchema, table, view, recordId){
         //console.log(typeof metadataSchema + ": " + metadataSchema)
