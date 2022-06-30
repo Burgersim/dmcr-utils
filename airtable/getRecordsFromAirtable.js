@@ -1,5 +1,5 @@
 import Airtable from "airtable";
-import AirtableRecord from "../classes/AirtableRecord";
+import AirtableRecord from "../classes/AirtableRecord.mjs";
 const axios = require('axios');
 
 function getAirtableRecords(apiKey, baseId, table, view){
