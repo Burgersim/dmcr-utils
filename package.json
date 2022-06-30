@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/Burgersim/dmcr-utils/issues"
   },
-  "homepage": "https://github.com/Burgersim/dmcr-utils#readme"
+  "homepage": "https://github.com/Burgersim/dmcr-utils#readme",
+  "dependencies": {
+    "airtable": "^0.11.4",
+    "axios": "^0.27.2"
+  }
 }
