@@ -1,10 +1,8 @@
-import getRecordsFromAirtable from './airtable/getRecordsFromAirtable'
-
-const {getAirtableRecords} = getRecordsFromAirtable
+import {getAirtableRecords} from "./airtable/getRecordsFromAirtable";
 
 let testValue = 20;
 
 module.exports = {
-    "getAirtableRecords": getAirtableRecords,
+    getAirtableRecords,
     testValue
 }
