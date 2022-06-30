@@ -1,0 +1,24 @@
+{
+  "name": "dmcr-utils",
+  "version": "1.0.0",
+  "description": "Utility Library containing useful functions for quick development of DMCR-related Tools and Services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Burgersim/dmcr-utils.git"
+  },
+  "keywords": [
+    "utility",
+    "functions",
+    "dmcr"
+  ],
+  "author": "Michael Salzer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Burgersim/dmcr-utils/issues"
+  },
+  "homepage": "https://github.com/Burgersim/dmcr-utils#readme"
+}
