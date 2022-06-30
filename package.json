@@ -2,7 +2,7 @@
   "name": "dmcr-utils",
   "version": "1.0.13",
   "description": "Utility Library containing useful functions for quick development of DMCR-related Tools and Services",
-  "main": "src/index.js",
+  "main": "src/index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
