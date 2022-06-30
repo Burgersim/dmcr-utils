@@ -1,8 +1,8 @@
-import {getAirtableRecords} from "./airtable/getRecordsFromAirtable";
+const getAirtableRecords = require('./airtable/getRecordsFromAirtable')
 
 let testValue = 20;
 
 module.exports = {
-    getAirtableRecords,
+    "getAirtableRecords": getAirtableRecords.getAirtableRecords,
     testValue
 }
