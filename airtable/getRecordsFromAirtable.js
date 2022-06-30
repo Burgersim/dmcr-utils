@@ -97,3 +97,6 @@ export function getAirtableRecords(apiKey, baseId, table, view){
 
     })
 }
+
+export default class getRecordsFromAirtable {
+}
