@@ -31,13 +31,13 @@
     "lodash.clonedeep": "^4.5.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.18.6",
-    "@babel/preset-env": "^7.18.6",
-    "rollup": "^2.75.7",
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "rollup": "^2.77.2",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-polyfill-node": "^0.9.0",
-    "rollup-plugin-json": "^4.0.0"
+    "rollup-plugin-polyfill-node": "^0.9.0"
   }
 }
