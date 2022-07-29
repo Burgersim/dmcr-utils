@@ -16,7 +16,7 @@ export function getAirtableRecords(apiKey, baseId, table, view) {
             url: 'https://api.airtable.com/v0/meta/bases/' + baseId + '/tables',
             headers: {
                 'Authorization': 'Bearer ' + apiKey,
-                'Cookie': 'brw=brw9o0V75aXrqjgEK'
+                //'Cookie': 'brw=brw9o0V75aXrqjgEK'
             }
         };
 
